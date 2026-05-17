@@ -18,7 +18,7 @@
  * ╚══════════════════════════════════════════════════════════╝
  */
 
-const API_BASE = 'sicata-production.up.railway.app';
+const API_BASE = 'https://sicata-production.up.railway.app';
 
 // ─── AUTH HELPERS ────────────────────────────────────────────
 function getToken() { return localStorage.getItem('sicata_token'); }
